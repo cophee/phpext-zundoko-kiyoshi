@@ -1,0 +1,5 @@
+ARG_ENABLE("kiyoshi", "enable kiyoshi support", "no");
+
+if (PHP_KIYOSHI != "no") {
+    EXTENSION("kiyoshi", "kiyoshi.c", PHP_EXTNAME_SHARED, "/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1");
+}
