@@ -12,7 +12,7 @@ PHP 7.x
 mpyw@localhost:~$ git clone git@github.com:mpyw/phpext-zundoko-kiyoshi.git
 mpyw@localhost:~$ cd phpext-zundoko-kiyoshi
 mpyw@localhost:~/phpext-zundoko-kiyoshi $ /path/to/phpize 
-mpyw@localhost:~/phpext-zundoko-kiyoshi $ ./configure --with-php-config=/path/to/php-config --prefix=/path/to/php-src
+mpyw@localhost:~/phpext-zundoko-kiyoshi $ ./configure --enable-kiyoshi --with-php-config=/path/to/php-config --prefix=/path/to/php-src
 mpyw@localhost:~/phpext-zundoko-kiyoshi $ make
 mpyw@localhost:~/phpext-zundoko-kiyoshi $ make install
 mpyw@localhost:~/phpext-zundoko-kiyoshi $ vim /path/to/php.ini
